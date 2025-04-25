@@ -43,3 +43,11 @@ Les réponses sont au format JSON. Exemple pour une requête réussie :
     }
   ]
 }
+
+
+En cas d’erreur, une réponse JSON est retournée avec un message d’erreur :
+
+{
+  "success": false,
+  "message": "Aucune côte disponible."
+}
