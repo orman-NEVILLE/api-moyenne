@@ -8,22 +8,22 @@ Le service prend en charge les cas suivants :
 
 1. **Moyennes pour tous les étudiants et tous les cours**  
    - Retourne les moyennes des notes pour chaque étudiant et chaque cours.
-   - **URL** : `https://api-service-moyenne.onrender.com//getMoyenne.php`
+   - **URL** : `https://api-service-moyenne.onrender.com/getMoyenne.php`
    - **Paramètres** : Aucun.
 
 2. **Moyennes pour un cours spécifique**  
    - Retourne les moyennes des notes pour un cours donné.
-   - **URL** : `https://api-service-moyenne.onrender.com//getMoyenne.php`
+   - **URL** : `https://api-service-moyenne.onrender.com/getMoyenne.php`
    - **Paramètres** : `code_cours`.
 
 3. **Moyenne d’un étudiant dans un cours**  
    - Retourne la moyenne des notes pour un étudiant spécifique dans un cours donné.
-   - **URL** : `https://api-service-moyenne.onrender.com//getMoyenne.php`
+   - **URL** : `https://api-service-moyenne.onrender.com/getMoyenne.php`
    - **Paramètres** : `etudiant_id`, `code_cours`.
 
 4. **Moyennes pour tous les cours d’un étudiant**  
    - Retourne les moyennes des notes pour tous les cours d’un étudiant donné.
-   - **URL** : `https://api-service-moyenne.onrender.com//getMoyenne.php`
+   - **URL** : `https://api-service-moyenne.onrender.com/getMoyenne.php``
    - **Paramètres** : `etudiant_id`.
 
 ## Structure des Réponses
